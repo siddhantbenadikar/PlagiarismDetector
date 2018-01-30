@@ -1,0 +1,25 @@
+
+Deliverable 1:
+-2: Avoid unnecessary description. First 3 paragraphs are literally not necessary. Keep it crisp and simple(professionalism).
+
+Deliverable 2:
+ Register is not considered as a valid use case material
+ Log in not considered as a valid use case material
+ Log out not considered as a valid use case
+ 
+Use case 4:
+     Goal in context is not to make the system upload. Should be more clear
+-1: Scenario steps should not be instructions referring to UI
+Note:
+Good trigger and exceptions
+
+Use case 5:
+-1: Scenario steps should not be instructions referring to UI
+
+Use case 6:
+-1: Scenario steps should not be instructions referring to UI
+
+Use case 7:
+-2: trivial use case, redundant to the basic functionality mentioned in others
+   Scenario steps should not be instructions referring to UI
++2: points for good exceptions

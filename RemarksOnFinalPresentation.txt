@@ -1,0 +1,3 @@
+•  solid presentation covered the two techniques that they implemented (LCS/Jaccard). LCS involves comparing methods and their bodies
+• system functionality includes comparison of multi-file projects; tool reports % similarity but no visual display of the differences
+• TA comment: ""Multiple files.Edge cases handled wrt file upload. LCS and Jaccard’s similarities used. No standardization used for normalization.  LCS compares sub trees.  Visitor and factory design patterns used, no side by side file comparison. Handles only java files. ""

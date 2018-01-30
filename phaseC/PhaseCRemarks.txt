@@ -1,0 +1,29 @@
+"- Based on the observation at presentation, system handles multiple file.
+- Handles erroneous conditions.
+- There is no similarity comparison of files being displayed.
+- displayed only the percentages"
+
+"Good UI. for whatever the features mentioned. Help to drop a mail to the developer."
+
+"- Could get the backend setup complete
+- Front end setup required installation of certain packages which I could not get it running.
+- So the setup instructions are exclusively for mac OS users. "
+
+"- factory and visitor design patterns implemented; However, the purpose of DetectorFactory is not clear because there are no subclasses of this class
+- well documented concise code, no todo statements.
+- used filter and collect on list
+- some class names are suboptimal: would be better to use ""ASTNode"" (singular) instead of ""ASTNodes"" (plural); also using a class name like Visitor is uninformative"
+
+Provided well documented instruction manual
+
+- test cases have covered all the classes. each test suite is corresponding to the class file mentioned in the main application code.
+- they have unit tests for each class.
+
+"- All the team members have worked on different branches and finally merged to the master branch.
+- seems to have followed the commit process.
+- I could not find any commits from Vivek nair( atleast not in a major number as compared to other 3 team members)"
+
+-16 issues filed . and all have been addressed before the deadline
+
+
+

@@ -1,0 +1,16 @@
+- report covers system functionality and high-level design, discussion of the
+  ASTSIM-LCS and Jaccard similarity approaches, some experimental results,
+  and lessons learned from the course
+- the report contains an interesting discussion explaining the reason for
+  moving away from a DFS-based approach and using a visitor-based approach
+  instead
+- good discussion about the disadvantages of the Jaccard approach
+  (its susceptibility to differences in variable and method names) and
+  the reasons for still preserving it in the system
+- also, good discussion of the ASTSIM-LCS approach. Since this is a more
+  involved algorithm, it would have been preferable to present the
+  algorithm in a more structured way, e.g. using pseudo-code
+- it is good that references are cited for the algorithms that you use,
+  but such references should include the name of the conference/journal
+  where the work was published, and the year of publication
+- overall, excellent job

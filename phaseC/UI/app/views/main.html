@@ -1,0 +1,37 @@
+<div class="spacer"></div>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-5 folder-struct-1">
+        <h3 class="header-h3">Upload folder 1 files</h3>
+        <div ngf-drop ngf-select="uploadFiles1($files, $errorFiles)" ng-model="folder1" class="drop-box" name="file1"
+             ngf-drag-over-class="'dragover'" ngf-multiple="true" ngf-allow-dir="true"
+             ngf-accept="'.java'"><p class="middle-info-text">Click here to upload <b>JAVA files</b></p>
+        </div>
+        Files:
+        <ul>
+          <li ng-repeat="f in folder1" ng-if="f.size!==0">
+            {{f.name}}
+          </li>
+        </ul>
+  </div>
+  <div class="col-xs-2"></div>
+  <div class="col-md-5 folder-struct-2">
+    <h3 class="header-h3">Upload folder 2 files</h3>
+    <div ngf-drop ngf-select="uploadFiles2($files, $errorFiles)" ng-model="folder2" class="drop-box" name="file2"
+         ngf-drag-over-class="'dragover'" ngf-multiple="true" ngf-allow-dir="true"
+         ngf-accept="'.java'"><p class="middle-info-text" required>Click here to upload <b>JAVA files</b></p>
+    </div>
+    Files:
+    <ul>
+      <li ng-repeat="f in folder2" ng-if="f.size!==0">
+        {{f.name}}
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="detect-class" ng-controller="TestCtrl">
+    <button class="btn btn-danger btn-detect" type="submit" ng-click="send()">Detect Similarities</button>
+</div>

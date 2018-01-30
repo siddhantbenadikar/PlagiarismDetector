@@ -1,0 +1,21 @@
+
+<a href="/" class="btn btn-primary pull-right" value="submit">Start Over</a>
+<h3>The Similarity percentages are : </h3>
+
+<div>
+  <table class="table table-striped table-bordered table-custom">
+    <thead class="thead-default">
+    <tr>
+      <th>File 1</th>
+      <th>File 2</th>
+      <th>LCS SCORE</th>
+      <th>Jaccard's SCORE</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="i in data">
+      <td ng-repeat="(key, val) in i"><b>{{val}}</b></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

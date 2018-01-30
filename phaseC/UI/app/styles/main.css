@@ -1,0 +1,160 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  height: 100%;
+}
+
+.btn-help{
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+.inner-div{
+  height: 1024px;
+  min-height: 1024px;
+}
+
+.navbar-default{
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #173754;}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+.table-custom{
+  margin-bottom: 80px;
+}
+
+.navbar-brand b{
+  color:#fff;
+}
+/* Custom page footer */
+.footer {
+  padding-top: 5px;
+  color: white;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+.footer{
+  background: #173754;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+  .spacer{
+    height: 20px;
+  }
+
+  .drop-box {
+    background: #F8F8F8;
+    border: 5px dashed #DDD;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .drop-box:hover{
+    cursor: pointer;
+    border: 5px dashed #2b669a;
+    transition: 0.4s all;
+  }
+
+  .middle-info-text{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .header-h3{
+    font-weight: bold;
+    color:#000;
+  }
+  .btn-detect:hover{
+    transition: 0.9s all;
+  }
+
+  .margin-btn{
+    margin-top: 10px;
+  }
+  .detect-class1{
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 18px;}
+
+  .detect-class{
+    text-align: center;
+  }
+
+  .folder-struct-1{
+    padding: 10px;
+    border: 2px solid #173754;
+    border-radius: 10px;
+    margin-right: 0px;
+
+  }
+
+  .folder-struct-2{
+    padding: 10px;
+    border: 2px solid #173754;
+    border-radius: 10px;
+
+  }
+  .navbar-default{
+    margin-bottom: 0;
+  }
+
+}

@@ -1,0 +1,8 @@
+UML: 
+The UML Class Diagram shows the major system components such as PreProcessor, ASTGenerator, and SimilarityChecker as well as some of the auxiliary data structures such as User, FileInput, and Report. Since several of the classes refer to a type AST, it would have been useful to provide some detail on this type, either as part of this diagram or a separate diagram could have been provided that shows the AST Hierarchy.  It would make more sense to have an association between FileInput and PreProcessor instead of between FileInput and IPreProcessor and leave out the attributes in PreProcessor. The associations between IPreprocessor and Parser, and between Parser and FileComparator are a bit strange and suggest a control flow between these components. It would make more sense to have an overall Controller component that interacts with each of the IPreProcessor, Parser, and FileComparator and that generates a report.
+
+Interfaces:
+AST Data Structure has not been provided → Compilation error 
+The interfaces Parser, FileComparator don’t seem to reflect the associations in the diagram. See comments on that above.
+
+Score: 88
